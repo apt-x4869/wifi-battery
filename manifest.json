@@ -1,0 +1,18 @@
+{
+    "name": "battey",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "js": ["script.js"],
+        "matches": ["http://*/*", "https://*/*"]
+      }],
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "logo.png"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "permissions": ["power","storage"]
+
+}

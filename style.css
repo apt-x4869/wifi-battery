@@ -1,0 +1,17 @@
+body {
+    background-color: #FFFFFF;
+  }
+  
+  #helloWorld{
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+  }
+  
+  #BatteryLevel {
+    font-size: 140px;
+    font-family: 'Teko', sans-serif;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
